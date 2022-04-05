@@ -4,7 +4,6 @@ const h1={
     color:'red',
     top:'150px',
     left:'300px',
-    color:'#2289',
     position:'absolute'
 }
 class PagenotFound extends Component {

@@ -73,7 +73,7 @@ header{
   top: 0px;
   margin-left: 26%;
   color: white;
-  background-color:rgb(58, 103, 106);
+  /* background-color:rgb(58, 103, 106); */
 }
 
 h2{
@@ -114,7 +114,7 @@ box-sizing: border-box;
 /* border: 1px solid green; */
 top: 0;
 position: absolute;
-background-color:rgb(58, 103, 106)  ;
+/* background-color:rgb(58, 103, 106)  ; */
 margin-left: 26%;
 }
 .info{
@@ -205,7 +205,7 @@ margin-left: 26%;
   margin-left: 26%;
   top: 0px;
   position: relative;
-  background-color:rgb(58, 103, 106)   ;
+  /* background-color:rgb(58, 103, 106)   ; */
 }
 .card{
   width: 240px ;
@@ -275,7 +275,7 @@ transform: scale(1.1);
   width: 73%;
   height: 710px;
   top: 0px;
-  background-color: rgb(58, 103, 106);
+  /* background-color: rgb(58, 103, 106); */
 }
 .project span{
   margin-left: 20px;
@@ -426,4 +426,14 @@ input{
 .second button:hover{
   background: lightblue;
   color: black;
+}
+#menu{
+  left: 30%;
+  position: relative;
+  top:1rem;
+}
+@media (max-width:600px){
+  header{
+    left: -120%;
+  }
 }
