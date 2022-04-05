@@ -427,13 +427,3 @@ input{
   background: lightblue;
   color: black;
 }
-#menu{
-  left: 30%;
-  position: relative;
-  top:1rem;
-}
-@media (max-width:600px){
-  header{
-    left: -120%;
-  }
-}

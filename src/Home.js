@@ -2,20 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 class Home extends React.Component {
-  constructor() {
-    super();
   
-    this.state = {
-       header:false
-    }
-  }
+  
   render(){
     return (
       <div>
        <div className="container" id="homestop">
-       <button id='menu' onClick={()=>this.setState({demo:!this.state.header})}>show</button>
-        
-          <h2>Hi, I am Meghana Thul</h2>
+                 <h2>Hi, I am Meghana Thul</h2>
           <div className="para">
               <p>I am beginner in Full Stack Development having experience of 4 months. I also have knowledge to build
                   website .I can work on Windows and I have basic knowledge Linux OS.</p>
